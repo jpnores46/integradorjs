@@ -1,0 +1,348 @@
+* {
+    text-decoration: none !important;
+}
+.container-fluid header nav ul li a{
+    color: rgb(255, 255, 255) !important;
+    /* text-decoration: none!important; */
+}
+/* la parte del main */
+
+.texto{
+   
+    background-color:transparent;
+    /* border: solid black; */
+    border-radius: 15px;
+    text-align: right;
+    width: 35%;
+    position:relative;
+    top: 200px;
+    margin-left: 750px; 
+    color: #fff;
+}
+.caja1{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top:-230px;
+    /* margin-bottom: -10px; */
+}
+.text {
+    
+    
+    padding-top: -10px;
+    font-size: 21px;
+    border-radius: 20px;
+    text-align:right;
+    /* word-wrap: break-word; */
+}
+#footer-menu {
+
+    width: 100%;
+    height: 100px;
+    background-color: #1d465c;
+    color: white;
+    /* text-decoration: none; */
+}
+
+.contenedor-menu-footer{  /* este es el del menu posta */
+    
+    /* margin: 0 10px;  */
+    padding-top:  2%;
+    display: flex; 
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    background-color: #1d465c;
+    color: white;
+    height: 10px;
+    line-height: 20px; 
+} 
+
+/* Color de fondo del menu */
+ .container-fluid{
+    display:flex;
+    justify-content: flex-start;
+    background-color: #353a40;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    height: 80px;
+    text-decoration: none; 
+} 
+.navbar-light .navbar-brand {
+    color: #ffffff;
+}
+.nav.justify-content-end{
+    color: #ffffff;
+}
+.navbar-brand{
+    float: left;
+    position: absolute;
+    left: 190px;
+    margin-bottom: 20px;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top{
+    display: flex;
+    justify-content:flex-start;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+/* color de la fuente del menu */
+nav ul li a{
+    /* color: #fff !important; */
+    font-size: 16px;
+    padding: 0px 13px; 
+} 
+/* espacio en el group card */
+.col-4 {
+    flex: 0 0 auto;
+    width: 25%;  
+    padding-right: 0px;
+}
+/* contenedor del group card */
+.container{
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-left: 18%;
+}
+.footer-menu{
+    text-decoration: none;
+}
+.calle{
+    display: flex;
+    margin-top: -135px;
+    filter:brightness(0.4);
+   
+}
+.div.container-fluid{
+    display: flex;
+    margin-left: -20px;
+}
+.logo{
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+@media (max-width: 600px) {
+    body {
+        background-color:#1d465c;
+        color: #fff;
+
+    }
+    .calle{
+        display: flex; 
+        filter:brightness(0.4);
+       
+    }
+    .navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top{
+        display:none;
+
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .nav{
+        display: none;
+
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .col-4 {
+        display: flex; 
+        flex-direction: column;
+        /* display: flex;
+        justify-content: left; */
+        color: #1d465c;
+        height: 50%;
+    } 
+    .div.col-4{
+        display: flex; 
+        flex-direction: column;
+    }
+    .div.container-fluid{
+        display: none;
+
+    }
+        
+    .texto{
+        display: none;
+    }
+    #footer-menu {
+
+        width: 50%;
+        height: 50px;
+        background-color: #1d465c;
+        color: white;
+        /* text-decoration: none; */
+    }
+    .container-fluid{
+        display:none;
+        /* justify-content: flex-start; */
+        background-color: #353a40;
+        text-decoration: none; 
+    } 
+    .div.container-fluid{
+        display: none;
+    } 
+    .logo{
+        display: none;
+        margin-left: 50%;
+        margin-bottom: 50%;
+    }
+    
+    .text{
+        font-size: 12px;
+    }
+    .div.div-main{
+        background-color: black;
+        width: 400px;
+        height: 150px;
+    }
+    .contenedor-menu-footer{  /* este es el del menu posta */
+   
+        display: flex; 
+        flex-direction: column;
+    
+        background-color: #1d465c;
+        color: white;
+        padding-left: 50%;
+        padding-right: 50%;
+        
+    } 
+    .container-nav{
+        display: flex; 
+        flex-direction: column;
+
+    }
+
+    /* para celu ----------------- */
+
+    @media (max-width: 300px) {
+    .body{
+        background-color: #1d465c;
+    }
+    .calle{
+        display: flex;  
+        width: 90%;
+        filter:brightness(0.4);
+       
+    }
+    .navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top{
+        display:none;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .nav{
+        display: none;
+
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .col-4 {
+        display: flex; 
+        flex-direction: column;
+        /* display: flex;
+        justify-content: left; */
+        color: #1d465c;
+        padding-left: 5%;
+        /* width: 20%;
+        height: 50%; */
+     
+    } 
+    .div.card-body{
+        display: flex;
+
+        padding-right:auto;
+        margin-right:auto;
+
+              
+     }
+
+
+    .div.col-4{
+        display: flex; 
+        flex-direction: column;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .div.container-fluid{
+        display: none;
+
+    }
+        
+    .texto{
+        display: none;
+    }
+    #footer-menu {
+
+        width: 50%;
+        height: 50px;
+        background-color: #1d465c;
+        color: white;
+        /* text-decoration: none; */
+    }
+    .container-fluid{
+        display:none;
+        /* justify-content: flex-start; */
+        background-color: #353a40;
+        text-decoration: none; 
+    } 
+    .div.container-fluid{
+        display: none;
+    } 
+    .logo{
+        display: none;
+      
+    }
+    
+    .text{
+        font-size: 12px;
+    }
+    .div.div-main{
+        background-color: black;
+        width: 50%;
+        height: 50%;
+    }
+    .contenedor-menu-footer{  /* este es el del menu posta */
+   
+        display: flex; 
+        flex-direction: column;
+    
+        background-color: #1d465c;
+        color: white;
+        padding-left: 0%;
+        padding-right: 50%;
+        
+    } 
+    .container-nav{
+        display: flex; 
+        flex-direction: column;
+        padding-left: 0%;
+
+    }
+
+        
+
+    }
+    
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+
+    
+} 
